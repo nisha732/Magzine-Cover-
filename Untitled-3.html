@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escape Magazine</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: serif;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .cover {
+            position: relative;
+            width: 350px;
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 100px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+        
+        .top-section {
+            position: relative;
+            padding: 10px 0;
+        }
+        
+        .top-section .header {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            border: 1px solid white;
+            padding: 5px 10px;
+            display: inline-block;
+        }
+        
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin: 10px 0;
+            text-transform: uppercase;
+        }
+        
+        .tagline {
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .image-container img {
+            width: 100%;
+            height: auto;
+            clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 100%);
+        }
+        
+        .headline {
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+        
+        .subtext {
+            font-size: 0.8rem;
+            margin: 5px 0 15px;
+        }
+        
+        .footer {
+            font-size: 0.8rem;
+            border-top: 1px solid white;
+            padding-top: 10px;
+        }
+        
+        .subscribe-btn {
+            background: orange;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+        
+        .subscribe-btn:hover {
+            background: orange;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cover">
+        <div class="top-section">
+            <div class="header">Issue 7 | Vol. 8 | July 2024</div>
+            <h1>Escape</h1>
+            <div class="tagline">A Minimal Magazine for Adventurers</div>
+        </div>
+        <div class="image-container">
+            <img src="1.jpg" alt="Mountain View">
+        </div>
+        <div class="headline">What Dreams Are Made Of</div>
+        <div class="subtext">Standing on top of the world and taking in the awe-inspiring panoramic view.</div>
+        <button class="subscribe-btn">Subscribe Now</button>
+        <br><br>
+        <div class="footer">www.reallygreatsite.com</div>
+    </div>
+</body>
+
+</html>
